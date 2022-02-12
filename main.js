@@ -66,6 +66,8 @@ TransactionForm.addEventListener('click', function(event){
     message: ${mesageSend.value}
     `)
 
+    alert("Su solicitud ha sido enviada correctamente!")
+
     nameSend.value = "";
     lastnameSend.value = "";
     emailSend.value = "";
